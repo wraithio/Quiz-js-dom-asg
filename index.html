@@ -19,56 +19,56 @@
                       <h1 class="display-5 fw-bold">JavaScript Quiz</h1>
                       <p class="col-md-8 fs-4">In this quiz you are to make it where you can type in the box number and change the color of the inside of the box to any of the following colors.</p>
                       <p>Red ,Blue ,Purple ,Brown and Yellow</p>
-                      
+                      <h1>by: Aaron Robinson</h1>
                     </div>
                   </div>
             </div>
         </div>
         <div class="row d-flex justify-content-around">
             
-            <div class="col-3 text-center boxSize">
+            <div class="col-3 text-center boxSize" id="box1">
                 <h1>Box 1</h1>
             </div>
-            <div class="col-3 text-center boxSize">
+            <div class="col-3 text-center boxSize" id="box2">
                 <h1>Box 2</h1>
             </div>
-            <div class="col-3 text-center boxSize">
+            <div class="col-3 text-center boxSize" id="box3">
                 <h1>Box 3</h1>
             </div>
             
         </div>
         <div class="row d-flex justify-content-around mt-3">
-            <div class="col-3 text-center boxSize">
+            <div class="col-3 text-center boxSize" id="box4">
                 <h1>Box 4</h1>
             </div>
             <div class="col-3 boxSize">
                 <h2>Color Box Panel</h2>
                 <div class="mb-3">
                     <label for="boxNumber" class="form-label">Enter Box Number</label>
-                    <textarea class="form-control" id="boxNumber" rows="1"></textarea>
+                    <textarea class="form-control" rows="1" id="boxNumber"></textarea>
                   </div>
                 <div class="mb-3">
                     <label for="changeColors" class="form-label">Enter Color to change</label>
                     <textarea class="form-control" id="changeColor" rows="1"></textarea>
                   </div>
                   <div class="d-grid gap-2">
-                    <button class="btn btn-primary" type="button">Change Color</button>
-                    <button class="btn btn-primary" type="button">Reset all Box Colors</button>
+                    <button class="btn btn-primary" type="button" id="changeColorBtn">Change Color</button>
+                    <button class="btn btn-primary" type="button" id="resetBtn">Reset all Box Colors</button>
                   </div>
             </div>
-            <div class="col-3 text-center boxSize">
+            <div class="col-3 text-center boxSize" id="box5">
                 <h1>Box 5</h1>
             </div>
         </div>
         <div class="row d-flex justify-content-around mt-3">
             
-            <div class="col-3 text-center boxSize">
+            <div class="col-3 text-center boxSize" id="box6">
                 <h1>Box 6</h1>
             </div>
-            <div class="col-3 text-center boxSize">
+            <div class="col-3 text-center boxSize" id="box7">
                 <h1>Box 7</h1>
             </div>
-            <div class="col-3 text-center boxSize">
+            <div class="col-3 text-center boxSize" id="box8">
                 <h1>Box 8</h1>
             </div>
             
@@ -85,5 +85,6 @@
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
     -->
+    <script src="/scripts/app.js"></script>
   </body>
 </html>
