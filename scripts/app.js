@@ -28,167 +28,190 @@ boxNumber.addEventListener("input", (event) => {
 
 changeColorBtn.addEventListener("click", function () {
   if (boxChoice == "1") {
-    if (colorChoice == "red") {
-      box1.className = "col-3 text-center boxSize bg-red";
-    }
-    if (colorChoice == "purple") {
-      box1.className = "col-3 text-center boxSize bg-purple";
-    }
-    if (colorChoice == "brown") {
-      box1.className = "col-3 text-center boxSize bg-brown";
-    }
-    if (colorChoice == "blue") {
-      box1.className = "col-3 text-center boxSize bg-blue";
-    }
-    if (colorChoice == "yellow") {
-      box1.className = "col-3 text-center boxSize bg-yellow";
+    switch (colorChoice) {
+      case "red":
+        box1.className = "col-3 text-center boxSize bg-red";
+        break;
+      case "purple":
+        box1.className = "col-3 text-center boxSize bg-purple";
+        break;
+      case "brown":
+        box1.className = "col-3 text-center boxSize bg-brown";
+        break;
+      case "blue":
+        box1.className = "col-3 text-center boxSize bg-blue";
+        break;
+      case "yellow":
+        box1.className = "col-3 text-center boxSize bg-yellow";
+        break;
+      default:
+        alert("Please enter valid inputs! Numbers: 1-8/Colors: Red ,Blue ,Purple ,Brown and Yellow");
+        break;
     }
   }
   if (boxNumber.value == "2") {
-    if (colorChoice == "red") {
-      box2.className = "col-3 text-center boxSize bg-red";
-    }
-    if (colorChoice == "purple") {
-      box2.className = "col-3 text-center boxSize bg-purple";
-    }
-    if (colorChoice == "brown") {
-      box2.className = "col-3 text-center boxSize bg-brown";
-    }
-    if (colorChoice == "blue") {
-      box2.className = "col-3 text-center boxSize bg-blue";
-    }
-    if (colorChoice == "yellow") {
-      box2.className = "col-3 text-center boxSize bg-yellow";
-    }
-  }
-  if (boxNumber.value == "3") {
-    if (colorChoice == "red") {
-      box3.className = "col-3 text-center boxSize bg-red";
-    }
-    if (colorChoice == "purple") {
-      box3.className = "col-3 text-center boxSize bg-purple";
-    }
-    if (colorChoice == "brown") {
-      box3.className = "col-3 text-center boxSize bg-brown";
-    }
-    if (colorChoice == "blue") {
-      box3.className = "col-3 text-center boxSize bg-blue";
-    }
-    if (colorChoice == "yellow") {
-      box3.className = "col-3 text-center boxSize bg-yellow";
+    switch (colorChoice) {
+      case "red":
+        box2.className = "col-3 text-center boxSize bg-red";
+        break;
+      case "purple":
+        box2.className = "col-3 text-center boxSize bg-purple";
+        break;
+      case "brown":
+        box2.className = "col-3 text-center boxSize bg-brown";
+        break;
+      case "blue":
+        box2.className = "col-3 text-center boxSize bg-blue";
+        break;
+      case "yellow":
+        box2.className = "col-3 text-center boxSize bg-yellow";
+        break;
+      default:
+        alert("Please enter valid inputs!");
+        break;
     }
   }
   if (boxNumber.value == "3") {
-    if (colorChoice == "red") {
-      box3.className = "col-3 text-center boxSize bg-red";
-    }
-    if (colorChoice == "purple") {
-      box3.className = "col-3 text-center boxSize bg-purple";
-    }
-    if (colorChoice == "brown") {
-      box3.className = "col-3 text-center boxSize bg-brown";
-    }
-    if (colorChoice == "blue") {
-      box3.className = "col-3 text-center boxSize bg-blue";
-    }
-    if (colorChoice == "yellow") {
-      box3.className = "col-3 text-center boxSize bg-yellow";
+    switch (colorChoice) {
+      case "red":
+        box3.className = "col-3 text-center boxSize bg-red";
+        break;
+      case "purple":
+        box3.className = "col-3 text-center boxSize bg-purple";
+        break;
+      case "brown":
+        box3.className = "col-3 text-center boxSize bg-brown";
+        break;
+      case "blue":
+        box3.className = "col-3 text-center boxSize bg-blue";
+        break;
+      case "yellow":
+        box3.className = "col-3 text-center boxSize bg-yellow";
+        break;
+      default:
+        alert("Please enter valid inputs!");
+        break;
     }
   }
   if (boxNumber.value == "4") {
-    if (colorChoice == "red") {
-      box4.className = "col-3 text-center boxSize bg-red";
-    }
-    if (colorChoice == "purple") {
-      box4.className = "col-3 text-center boxSize bg-purple";
-    }
-    if (colorChoice == "brown") {
-      box4.className = "col-3 text-center boxSize bg-brown";
-    }
-    if (colorChoice == "blue") {
-      box4.className = "col-3 text-center boxSize bg-blue";
-    }
-    if (colorChoice == "yellow") {
-      box4.className = "col-3 text-center boxSize bg-yellow";
+    switch (colorChoice) {
+      case "red":
+        box4.className = "col-3 text-center boxSize bg-red";
+        break;
+      case "purple":
+        box4.className = "col-3 text-center boxSize bg-purple";
+        break;
+      case "brown":
+        box4.className = "col-3 text-center boxSize bg-brown";
+        break;
+      case "blue":
+        box4.className = "col-3 text-center boxSize bg-blue";
+        break;
+      case "yellow":
+        box4.className = "col-3 text-center boxSize bg-yellow";
+        break;
+      default:
+        alert("Please enter valid inputs!");
+        break;
     }
   }
   if (boxNumber.value == "5") {
-    if (colorChoice == "red") {
-      box5.className = "col-3 text-center boxSize bg-red";
-    }
-    if (colorChoice == "purple") {
-      box5.className = "col-3 text-center boxSize bg-purple";
-    }
-    if (colorChoice == "brown") {
-      box5.className = "col-3 text-center boxSize bg-brown";
-    }
-    if (colorChoice == "blue") {
-      box5.className = "col-3 text-center boxSize bg-blue";
-    }
-    if (colorChoice == "yellow") {
-      box5.className = "col-3 text-center boxSize bg-yellow";
+    switch (colorChoice) {
+      case "red":
+        box5.className = "col-3 text-center boxSize bg-red";
+        break;
+      case "purple":
+        box5.className = "col-3 text-center boxSize bg-purple";
+        break;
+      case "brown":
+        box5.className = "col-3 text-center boxSize bg-brown";
+        break;
+      case "blue":
+        box5.className = "col-3 text-center boxSize bg-blue";
+        break;
+      case "yellow":
+        box5.className = "col-3 text-center boxSize bg-yellow";
+        break;
+      default:
+        alert("Please enter valid inputs!");
+        break;
     }
   }
   if (boxNumber.value == "6") {
-    if (colorChoice == "red") {
-      box6.className = "col-3 text-center boxSize bg-red";
-    }
-    if (colorChoice == "purple") {
-      box6.className = "col-3 text-center boxSize bg-purple";
-    }
-    if (colorChoice == "brown") {
-      box6.className = "col-3 text-center boxSize bg-brown";
-    }
-    if (colorChoice == "blue") {
-      box6.className = "col-3 text-center boxSize bg-blue";
-    }
-    if (colorChoice == "yellow") {
-      box6.className = "col-3 text-center boxSize bg-yellow";
+    switch (colorChoice) {
+      case "red":
+        box6.className = "col-3 text-center boxSize bg-red";
+        break;
+      case "purple":
+        box6.className = "col-3 text-center boxSize bg-purple";
+        break;
+      case "brown":
+        box6.className = "col-3 text-center boxSize bg-brown";
+        break;
+      case "blue":
+        box6.className = "col-3 text-center boxSize bg-blue";
+        break;
+      case "yellow":
+        box6.className = "col-3 text-center boxSize bg-yellow";
+        break;
+      default:
+        alert("Please enter valid inputs!");
+        break;
     }
   }
   if (boxNumber.value == "7") {
-    if (colorChoice == "red") {
-      box7.className = "col-3 text-center boxSize bg-red";
-    }
-    if (colorChoice == "purple") {
-      box7.className = "col-3 text-center boxSize bg-purple";
-    }
-    if (colorChoice == "brown") {
-      box7.className = "col-3 text-center boxSize bg-brown";
-    }
-    if (colorChoice == "blue") {
-      box7.className = "col-3 text-center boxSize bg-blue";
-    }
-    if (colorChoice == "yellow") {
-      box7.className = "col-3 text-center boxSize bg-yellow";
+    switch (colorChoice) {
+      case "red":
+        box7.className = "col-3 text-center boxSize bg-red";
+        break;
+      case "purple":
+        box7.className = "col-3 text-center boxSize bg-purple";
+        break;
+      case "brown":
+        box7.className = "col-3 text-center boxSize bg-brown";
+        break;
+      case "blue":
+        box7.className = "col-3 text-center boxSize bg-blue";
+        break;
+      case "yellow":
+        box7.className = "col-3 text-center boxSize bg-yellow";
+        break;
+      default:
+        alert("Please enter valid inputs!");
+        break;
     }
   }
   if (boxNumber.value == "8") {
-    if (colorChoice == "red") {
-      box8.className = "col-3 text-center boxSize bg-red";
-    }
-    if (colorChoice == "purple") {
-      box8.className = "col-3 text-center boxSize bg-purple";
-    }
-    if (colorChoice == "brown") {
-      box8.className = "col-3 text-center boxSize bg-brown";
-    }
-    if (colorChoice == "blue") {
-      box8.className = "col-3 text-center boxSize bg-blue";
-    }
-    if (colorChoice == "yellow") {
-      box8.className = "col-3 text-center boxSize bg-yellow";
+    switch (colorChoice) {
+      case "red":
+        box8.className = "col-3 text-center boxSize bg-red";
+        break;
+      case "purple":
+        box8.className = "col-3 text-center boxSize bg-purple";
+        break;
+      case "brown":
+        box8.className = "col-3 text-center boxSize bg-brown";
+        break;
+      case "blue":
+        box8.className = "col-3 text-center boxSize bg-blue";
+        break;
+      case "yellow":
+        box8.className = "col-3 text-center boxSize bg-yellow";
+        break;
+      default:
+        alert("Please enter valid inputs!");
+        break;
     }
   }
 });
 
 resetBtn.addEventListener("click", function () {
-    box1.className = "col-3 text-center boxSize bg-trans";
-    box2.className = "col-3 text-center boxSize bg-trans";
-    box3.className = "col-3 text-center boxSize bg-trans";
-    box4.className = "col-3 text-center boxSize bg-trans";
-    box5.className = "col-3 text-center boxSize bg-trans";
-    box6.className = "col-3 text-center boxSize bg-trans";
-    box7.className = "col-3 text-center boxSize bg-trans";
-    box8.className = "col-3 text-center boxSize bg-trans";
+  box1.className = "col-3 text-center boxSize bg-trans";
+  box2.className = "col-3 text-center boxSize bg-trans";
+  box3.className = "col-3 text-center boxSize bg-trans";
+  box4.className = "col-3 text-center boxSize bg-trans";
+  box5.className = "col-3 text-center boxSize bg-trans";
+  box6.className = "col-3 text-center boxSize bg-trans";
+  box7.className = "col-3 text-center boxSize bg-trans";
+  box8.className = "col-3 text-center boxSize bg-trans";
 });
